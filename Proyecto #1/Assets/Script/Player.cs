@@ -43,8 +43,9 @@ public class Player : MonoBehaviour
     void Damage(int newAttack) //esto es un metodo
     {
            hp = hp - newAttack;
-           GameManager.hp--;
-           Debug.log(GameManager.hp);
+          // GameManager.hp--;
+          // Debug.Log(GameManager.hp);
+           
 
 
     }
@@ -58,7 +59,7 @@ public class Player : MonoBehaviour
      void Recuperar(int vida)
      {
         hp = hp + vida;
-        GameManager.hp++;
-           Debug.log(GameManager.hp);
+        //GameManager.hp++;
+       // Debug.Log(GameManager.hp);
      }
 }
